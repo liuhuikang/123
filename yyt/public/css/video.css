@@ -1,0 +1,232 @@
+
+body{
+    margin:0;
+    border:0;
+    padding:0;
+    background:#f6f6f6;
+}
+#all{
+    width:1220px;
+    height:1500px;
+    margin:0 auto;
+    margin-top:60px;
+    background:white;
+}
+.first_video video{
+    width:833px;
+}
+.first_video{
+    width:833px;
+}
+
+#all_left{
+    width:833px;
+    display: inline-block
+}
+.f_r{
+    float:right;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold
+}
+.video_title{
+    border:1px solid #ddd;
+    padding:20px 20px 20px 5px;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color:inherit;
+}
+a:hover{
+    color: #58d696;
+}
+.uname{
+    font-size: 18px;
+    padding-left:20px;
+}
+.fa:hover{
+     color: #58d696;
+     cursor:pointer;
+}
+.small_btn_span{
+    font-size:13px;
+    margin:5px;
+}
+.first_video i{
+    margin-right:15px;
+}
+.f-r{
+    float:right;
+}
+.f-l{
+    float:left;
+}
+#right_list{
+    width:375px;
+    height:1500px;
+    margin-left:8px;
+    border:1px solid #ddd;
+}
+#right_list ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+#right_list ul li{
+    padding:12px 15px;
+    overflow: auto; 
+    transition: 0.3s
+    
+
+}
+
+#right_list img{
+    width:130px;
+    height:74px;
+    
+}
+ #require_daohangtiao{
+    height:50px
+    }
+    .my-header{
+    width:100%;
+    height:50px
+    }
+  .list_li_first{
+      height:30px;
+      width:345px;
+      padding:20px 16px;
+      border-bottom: 1px solid #ddd;
+  }
+  .list_li_first b{
+      font-size: 22px;
+  }
+  .right_list_imgbox{
+    display:block;
+    position: relative;
+    width:130px;
+    height: 74px;
+    float: left
+  }
+  .right_list_messbox h4{
+    margin-top:7px;
+    margin-bottom: 16px;
+    font-size:19px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .right_list_messbox{
+    display:block;
+    position: relative;
+    width:200px;
+    float: right;
+    margin-left:14px;
+  }
+  .video_time,.video_num{
+      font-size: 11px;
+      color:#999;
+      cursor: pointer
+  }
+  .right_list_messbox h4:hover{
+    color:#58d696
+     }
+  #right_list li:hover{
+      background:rgba(8, 54, 50, 0.1)
+  }
+  #require_daohangtiao{
+    height:50px;
+    width:100%;
+    z-index: 99;
+    position: fixed
+}
+.my-header{
+    width:100%;
+    height:50px;
+    background:rgb(0,0,0,.0);
+    overflow:visible;
+}
+.my-header:hover{
+    height:300px;
+}
+
+.user_window_title img{
+    border-radius: 50%;
+}
+.user_name{
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top:-30px;
+    left:20px;
+}
+.user_window{
+    width:791px;
+    clear: both;
+    border:1px solid #ddd;
+    border-top:0;
+    padding:20px 20px 20px 20px;
+}
+
+.orange{
+    color:orange;
+}
+.i_bloak{
+    display: inline-block;
+    margin:0;
+}
+.user_time{
+    font-size: 6px;
+    position: relative;
+    left:-180px;
+    color:rgb(88, 88, 88);
+}
+.user_guanzhu{
+    margin-top:15px;
+    height:28px;
+    border-radius: 4px;
+    background:rgb(20, 180, 113);
+    float:right;
+    color:white;
+    line-height:28px;
+    text-align: center;
+    font-size: 8px;
+    padding:0 5px;
+}
+.user_guanzhu:hover{
+    cursor: pointer;
+}
+.user_guanzhu span:hover{
+    cursor: pointer;
+    color:white
+}
+/*设置  文字   全部不可选*/
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    }
+    .user_like{
+        width:791px;
+        border:1px solid #ddd;
+        margin-top:10px;
+        padding:5px 20px;
+    }
+    .user_like_item{
+        width:791px;
+        border:1px solid #ddd;
+        padding:20px 20px;
+    }
+    .user_like_item img{
+        width:130px;
+        height:74px;
+        margin-left:10px;
+    }
+    .user_like_item b ,.user_like_item span{
+        font-weight: 100;
+       font-size: 6px;
+       margin-left:10px;
+    }

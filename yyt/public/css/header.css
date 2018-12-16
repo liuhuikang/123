@@ -1,0 +1,115 @@
+.header{
+    background:black;
+    width:100%;
+    height:50px;
+    position: fixed;
+    margin:0;
+    z-index: 99;
+    flex-direction:row;
+    justify-content:center;  
+}
+
+.header span{
+    padding:0 1.6%;
+    height:50px;
+    color:white;
+    float:left;
+    transition: 0.3s;
+    line-height:50px;
+}
+.header img,.fl{
+    float:left;
+}
+
+.header span:hover{
+    background: rgba(234, 238, 255, 0.2);
+    color: #58d696;
+}
+ .input_div{
+    border:0;
+    width: 235px;
+    height:30px;
+    border-radius: 5px;
+    margin:10px 0 0 20px;
+    outline:50px;
+    padding-left:15px;
+    float: left;
+    background:white
+}
+.header input{
+    border:0;
+    width: 200px;
+    height:30px;
+    outline:0;
+    padding:0
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    font-size:14px;
+    line-height: 50px;
+}
+
+.fangdajing{
+width:20px;
+height:15px;
+float: right;
+border-radius: 5px;
+border:0;
+
+padding:7.5px;
+cursor: pointer
+}
+#login{
+float:right;
+margin-right:60px;
+color:white;
+
+}
+#login:hover{
+background:black;
+}
+#login a:hover{
+color:#58d696;
+}
+
+.l_10{
+margin-left:5px;
+transition: 0.2s;
+color:white
+}
+.rotate_180{
+transform: rotate(180deg);
+
+}
+.login_zc,.login_dl{
+cursor: pointer
+}
+#ce{
+width:107px;
+height:180px;
+position: absolute;
+top:50px;
+left:689px;
+z-index:5000;
+background: rgba(0, 0, 0,0.7);
+padding:0;
+margin:0;
+overflow: hidden;
+color:white;
+height:0
+}
+#ce span{
+display: block;
+text-align: center;
+margin-top:10px;
+cursor: pointer;
+transition: 0.2s;
+padding:5px 0;
+}
+#ce span:hover{
+color: #58d696;
+background: rgba(0, 0, 0,0.9 );
+}
+
+

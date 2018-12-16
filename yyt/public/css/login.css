@@ -1,0 +1,134 @@
+
+/********************登陆模态框*****************/
+#login_background_black{
+    width:100%;
+    height:1500px;
+    background-color:rgba(0, 0, 1, 0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 888;
+}
+
+.login_window{
+    width:750px;
+     height:380px;
+    top:-500px;
+    left:30%;
+    position: fixed;
+    background-image:url("../img/login.jpg");
+    z-index: 999;
+}
+
+.login_window_head{
+    width:400px;
+    height:300px;
+    margin-top:100px;
+    margin-left:350px;
+}
+.login_window_head input{
+    width:200px;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:20px;
+  
+    border-radius: 3px;
+    border:1px solid #b2d8b2;
+    outline: 1;
+    outline-color: #6ead6e;
+}
+
+.submit{
+    width:200px;
+    height:18px;
+    color:rgb(255, 255, 255);
+    margin-top:20px;
+    background: #82ad7b;
+    border:2px solid #bee9b8;
+    border-radius: 5px;
+    box-sizing: content-box;
+    transition: 0.3s;
+}
+.submit:hover{
+    background: #5a8653;
+}
+#login_background_black,.login_window{
+    display: none;
+}
+.close_btn{
+    position: relative;
+    top:0;
+    float:right;
+    padding:15px;
+    background: rgb(25, 151, 103,.2);
+    border-left:2px solid rgb(25, 151, 103,.5);
+    border-bottom:2px solid rgb(25, 151, 103,.5);
+    color: rgba(11, 87, 58, 0.5);
+    border-radius:0 0 0 40% ;
+}
+.close_btn:hover{
+    color:rgb(9, 119, 68);
+    border-left:2px solid rgb(13, 139, 91);
+    border-bottom:2px solid rgb(13, 139, 91);
+}
+.login_window_head span{
+    display: none;
+}
+.true{
+    color:rgb(13, 139, 91);
+}
+.false{
+    color:rgb(192, 73, 37);
+}
+/********************登陆模态框结束   以下为注册界面*****************/
+
+.insert_window{
+    width:750px;
+     height:380px;
+    top:-500px;
+    left:30%;
+    position: fixed;
+    background-image:url("../img/login.jpg");
+    z-index: 999;
+}
+
+.insert_login_window_head{
+    width:400px;
+    height:300px;
+    margin-top:90px;
+    margin-left:350px;
+}
+.insert_login_window_head input{
+    width:200px;
+    padding:10px;
+ 
+    margin-top:18px;
+  
+    border-radius: 3px;
+    border:1px solid #b2d8b2;
+    outline: 1;
+    outline-color: #6ead6e;
+}
+
+.insert_submit{
+    width:200px;
+    height:18px;
+    color:rgb(255, 255, 255);
+    margin-top:20px;
+    background: #82ad7b;
+    border:2px solid #bee9b8;
+    border-radius: 5px;
+    box-sizing: content-box;
+    transition: 0.3s;
+}
+.insert_submit:hover{
+    background: #5a8653;
+}
+#login_background_black,.insert_login_window{
+    display: none;
+}
+
+
+.insert_login_window_head span{
+    display: none;
+}
